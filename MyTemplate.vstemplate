@@ -1,0 +1,82 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ImageMIX</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ImageMIX</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ImageMIX.csproj" File="ImageMIX.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ApplicationIcon.png">ApplicationIcon.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Background.png">Background.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice1.png">image1_slice1.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice2.png">image1_slice2.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice3.png">image1_slice3.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice4.png">image1_slice4.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice5.png">image1_slice5.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice6.png">image1_slice6.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice7.png">image1_slice7.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice8.png">image1_slice8.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice9.png">image1_slice9.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice1.png">image2_slice1.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice2.png">image2_slice2.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice3.png">image2_slice3.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice4.png">image2_slice4.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice5.png">image2_slice5.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice6.png">image2_slice6.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice7.png">image2_slice7.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice8.png">image2_slice8.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image2_slice9.png">image2_slice9.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice1.png">image3_slice1.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice2.png">image3_slice2.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice3.png">image3_slice3.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice4.png">image3_slice4.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice5.png">image3_slice5.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice6.png">image3_slice6.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice7.png">image3_slice7.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice8.png">image3_slice8.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="image3_slice9.png">image3_slice9.png</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppManifest.xml">AppManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WMAppManifest.xml">WMAppManifest.xml</ProjectItem>
+      </Folder>
+      <Folder Name="SampleData" TargetFolderName="SampleData">
+        <Folder Name="ImageSample" TargetFolderName="ImageSample">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ImageSample.xaml">ImageSample.xaml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ImageSample.xaml.cs">ImageSample.xaml.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ImageSample.xsd">ImageSample.xsd</ProjectItem>
+          <Folder Name="ImageSample_Files" TargetFolderName="ImageSample_Files">
+            <ProjectItem ReplaceParameters="false" TargetFileName="image01.png">image01.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image02.png">image02.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image03.png">image03.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image04.png">image04.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image05.png">image05.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice1.png">image1_slice1.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice2.png">image1_slice2.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice3.png">image1_slice3.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice4.png">image1_slice4.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice5.png">image1_slice5.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice6.png">image1_slice6.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice7.png">image1_slice7.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice8.png">image1_slice8.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image1_slice9.png">image1_slice9.png</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreenImage.jpg">SplashScreenImage.jpg</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
